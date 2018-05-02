@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A353B852098909900513495 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A353B842098909900513495 /* UIViewHelper.swift */; };
 		1A3B811320987C3F00121794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3B811220987C3F00121794 /* AppDelegate.swift */; };
 		1A3B811820987C3F00121794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B811620987C3F00121794 /* Main.storyboard */; };
 		1A3B811A20987C4000121794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B811920987C4000121794 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A353B842098909900513495 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
 		1A3B810F20987C3F00121794 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3B811220987C3F00121794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A3B811720987C3F00121794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				1A3B811220987C3F00121794 /* AppDelegate.swift */,
 				1A3B811620987C3F00121794 /* Main.storyboard */,
+				1A353B842098909900513495 /* UIViewHelper.swift */,
 				1A3B812620987E4000121794 /* CardCell.swift */,
 				1A3B812420987C8200121794 /* CardsTableViewController.swift */,
 				1A3B811920987C4000121794 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				1A3B811320987C3F00121794 /* AppDelegate.swift in Sources */,
 				1A3B812520987C8200121794 /* CardsTableViewController.swift in Sources */,
+				1A353B852098909900513495 /* UIViewHelper.swift in Sources */,
 				1A3B812720987E4000121794 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5485TZVF4;
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5485TZVF4;
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
