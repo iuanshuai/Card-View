@@ -60,10 +60,16 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXi-fR-fZU">
+                                                                <rect key="frame" x="253" y="25" width="30" height="30"/>
+                                                                <state key="normal" title="Like"/>
+                                                            </button>
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstItem="ebx-b5-wfo" firstAttribute="centerY" secondItem="HeW-Ye-Acb" secondAttribute="centerY" id="7ZL-vD-EfN"/>
                                                             <constraint firstItem="ebx-b5-wfo" firstAttribute="leading" secondItem="HeW-Ye-Acb" secondAttribute="leading" constant="20" id="Msa-Nn-hjP"/>
+                                                            <constraint firstItem="DXi-fR-fZU" firstAttribute="centerY" secondItem="HeW-Ye-Acb" secondAttribute="centerY" id="U8G-gd-8Wp"/>
+                                                            <constraint firstAttribute="trailing" secondItem="DXi-fR-fZU" secondAttribute="trailing" constant="20" id="opO-Te-ozC"/>
                                                         </constraints>
                                                     </view>
                                                     <constraints>
